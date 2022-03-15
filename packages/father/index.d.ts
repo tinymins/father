@@ -1,5 +1,5 @@
 import { Config as IDoczConfig } from 'docz-core';
-import { IBundleOptions as IBundleOptionsFromBuild, IOpts } from 'father-build/src/types';
+import { IBundleOptions as IBundleOptionsFromBuild, IOpts } from 'father-build-universal/src/types';
 
 export { IOpts };
 export function build(opts: IOpts): Promise<any>;

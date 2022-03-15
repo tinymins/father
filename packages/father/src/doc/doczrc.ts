@@ -2,8 +2,8 @@ import { css } from 'docz-plugin-umi-css';
 import { join, dirname } from 'path';
 import { readFileSync, existsSync } from 'fs';
 import { merge } from 'lodash';
-import getUserConfig, { CONFIG_FILES } from 'father-build/lib/getUserConfig';
-import registerBabel from 'father-build/lib/registerBabel';
+import getUserConfig, { CONFIG_FILES } from 'father-build-universal/lib/getUserConfig';
+import registerBabel from 'father-build-universal/lib/registerBabel';
 import reactExternal from './docz-plugin-react-externals';
 
 const cssModuleRegex = /\.module\.css$/;

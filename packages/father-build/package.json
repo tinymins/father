@@ -1,7 +1,7 @@
 {
-  "name": "father-build",
+  "name": "father-build-universal",
   "version": "1.21.1",
-  "description": "Library build tool based on rollup.",
+  "description": "Library build tool based on rollup, support customize configures, such as vue/eslint.",
   "main": "lib/index.js",
   "bin": {
     "father-build": "./bin/father-build.js"
@@ -65,10 +65,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/umijs/father"
+    "url": "https://github.com/tinymins/father"
   },
-  "homepage": "http://github.com/umijs/father",
-  "bugs": "http://github.com/umijs/father/issues",
+  "homepage": "https://github.com/tinymins/father",
+  "bugs": "https://github.com/tinymins/father/issues",
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ],

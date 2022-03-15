@@ -31,7 +31,7 @@ Library toolkit based on rollup, docz, storybook, jest, prettier and eslint.
 
 Install `father` via yarn or npm.
 
-> 如果只做组件打包，不需要文档，可安装 father-build，使用和配置同 father。
+> 如果只做组件打包，不需要文档，可安装 father-build-universal，使用和配置同 father。
 
 ```bash
 $ yarn add father
