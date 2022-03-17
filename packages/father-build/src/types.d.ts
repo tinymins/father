@@ -118,7 +118,7 @@ export interface IBundleOptions {
    * @param opts 编译环境配置项
    * @returns 修改后的 rollup 配置项
    */
-  hookGetRollupConfig?: (rollupOptions: RollupOptions[], opts: IGetRollupConfigOpts) => RollupOptions[];
+  hookRollupConfig?: (rollupOptions: RollupOptions[], environment: IGetRollupConfigOpts) => RollupOptions[];
 }
 
 export interface IOpts {

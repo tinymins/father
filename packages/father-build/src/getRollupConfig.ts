@@ -78,7 +78,7 @@ export default function(opts: IGetRollupConfigOpts): RollupOptions[] {
     lessInRollupMode = {},
     sassInRollupMode = {},
     hookRollupPluginOptions,
-    hookGetRollupConfig,
+    hookRollupConfig,
   } = bundleOpts;
   const entryExt = extname(entry);
   const name = file || basename(entry, entryExt);
@@ -367,8 +367,8 @@ export default function(opts: IGetRollupConfigOpts): RollupOptions[] {
       throw new Error(`Unsupported type ${type}`);
   }
 
-  if (hookGetRollupConfig) {
-    options = hookGetRollupConfig(options, opts);
+  if (hookRollupConfig) {
+    options = hookRollupConfig(options, opts);
   }
   return options;
 }
