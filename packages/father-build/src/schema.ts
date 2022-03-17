@@ -168,7 +168,10 @@ export default {
     pkgFilter: {
       type: 'object',
     },
-    hookGetRollupConfig: {
+    hookRollupPluginOptions: {
+      instanceof: 'Function',
+    },
+    hookRollupConfig: {
       instanceof: 'Function',
     },
   },
